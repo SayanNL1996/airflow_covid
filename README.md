@@ -35,11 +35,13 @@ Out of the box, Airflow uses a sqlite database, which you should outgrow fairly 
 It is used for uploading data from local to google cloud platform via bigquery table. --For that First you need to create your own project and save the credential.
 
 #dag.py
-This file contains the code of dag functionalities.
+This file contains the code of default arguements and the calling of the tasks..
 
-#covid.py
-This file contains the code of creating dataset and table and inserting the data.
+#taks.py
+This file contains all the tasks defination.
 
+#configs.py
+This file contains some configs like GCP credentials and filename.
 #Dependencies
 Google cloud platform Bigquery-
 
